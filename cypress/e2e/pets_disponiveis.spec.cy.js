@@ -19,3 +19,15 @@ describe('CT03 - Visite a página de login do Adopet', () => {
     cy.contains('a','Fazer login').click();
   })
 })
+
+describe('CT04 - Visualize os pets disponíveis e fale com responsavel', () => {
+  it('Acesse a home, clique no botão de pets disponiveis e fale com responsavel', () => {
+    cy.visit('https://adopet-frontend-cypress.vercel.app/');
+    cy.contains('a','Ver pets disponíveis para adoção').click();
+    cy.contains('a','Falar com responsável').click();
+  })
+})
+
+
+
+//<a class="card__contact" aria-label="Falar com responsável" href="/mensagem">Falar com responsável</a>
