@@ -27,7 +27,3 @@ describe('CT04 - Visualize os pets disponíveis e fale com responsavel', () => {
     cy.contains('a','Falar com responsável').click();
   })
 })
-
-
-
-//<a class="card__contact" aria-label="Falar com responsável" href="/mensagem">Falar com responsável</a>
