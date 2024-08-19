@@ -7,5 +7,12 @@ module.exports = defineConfig({
     },
     //Comando abaixo para realizar gravação da execução em video
     //video:true
+    reporter: 'mochawesome',
+    reporterOptions: {
+      reportDir: 'cypress/results',
+      overwrite: false,
+      html: true,
+      json: false,
+      timestamp: "mmddyyyy_HHMMss" }
   },
 });
