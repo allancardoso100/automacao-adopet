@@ -6,8 +6,8 @@ describe('Pagina de login', () => {
     })
     
     it('CT08 - Deve acessar a página de login atraves do ícone de mensagem da home', () => {
-        cy.get('[data-test="input-loginEmail"]').type('allan@gmail.com');
-        cy.get('[data-test="input-loginPassword"]').type('Senha123');
-        cy.get('[data-test="submit-button"]').click();
+
+        cy.login('allan@gmail.com', 'Senha123')
+        
     })
 })
