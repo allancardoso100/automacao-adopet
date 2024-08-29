@@ -148,3 +148,5 @@ dist
 
 results/
 videos/
+
+cypress.env.json
