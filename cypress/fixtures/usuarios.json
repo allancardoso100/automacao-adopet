@@ -1,0 +1,34 @@
+{
+    "usuarios": [
+      {
+        "name": "Star-Lord",
+        "email": "starlord@guardians.com",
+        "password": "NovaSenha123"
+      },
+      {
+        "name": "Gamora",
+        "email": "gamora@guardians.com",
+        "password": "NovaSenha456"
+      },
+      {
+        "name": "Rocket",
+        "email": "rocket@guardians.com",
+        "password": "NovaSenha789"
+      },
+      {
+        "name": "Groot",
+        "email": "groot@guardians.com",
+        "password": "NovaSenha1011"
+      },
+      {
+        "name": "Drax",
+        "email": "drax@guardians.com",
+        "password": "NovaSenha1213"
+      },
+      {
+        "name": "Yondu",
+        "email": "yondu@guardians.com",
+        "password": "NovaSenha1415"
+      }
+    ]
+  }  
