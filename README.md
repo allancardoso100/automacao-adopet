@@ -1,3 +1,3 @@
 # automacao-adopet
 
-Repositório utilizado no Curso de Cypress da Alura
+Projeto de automação gerado no curso de Cypress da Alura.
